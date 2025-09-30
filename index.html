@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Muhammad Bintang Izzra Wahyudi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="./assets/img/bintangWEB.webp" alt="Bintang Izzra Logo" class="nav-logo-img">
+                <h3>BINTANG IZZRA</h3>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#biodata" class="nav-link">About Me</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#kompetensi" class="nav-link">Kompetensi</a>
+                <a href="#sertifikat" class="nav-link">Sertifikat</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">WELLCOME!</h1>
+            <h2 class="hero-name">Muhammad Bintang Izzra Wahyudi</h2>
+            <p class="hero-tagline">Network and Electronics Junior</p>
+        </div>
+    </section>
+
+    <!-- Biodata Section -->
+    <section id="biodata" class="biodata">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="biodata-content">
+                <div class="profile-photo">
+                    <img src="./assets/img/tentangbintang.png" alt="Muhammad Bintang Izzra Wahyudi" class="profile-img">
+                </div>
+                <div class="bio-info">
+                    <h3>Muhammad Bintang Izzra Wahyudi</h3>
+                    <p class="bio-text">
+                        Hello! My name is Muhammad Bintang Izzra Wahyudi, a vocational high school student majoring in Computer and Network Engineering (TKJ). I have a strong interest in computer networking, system administration, and electronic projects. I am passionate about solving technical problems and creating efficient solutions. I am continuously developing my skills in the fields of information technology and IoT.
+                    </p>
+                    <div class="contact-info">
+                        <h4>Contact:</h4>
+                        <p><i class="fas fa-envelope"></i> wahyudibintang209@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +62 857-1554-1306</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Bogor, Jawa Barat, Indonesia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+     <section id="skills" class="skills-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">My Skills</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="skill-item">
+                        <h5>Mikrotik</h5>
+                        <div class="progress">
+                            <div class="progress-bar" data-progress="90"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="skill-item">
+                        <h5>Fiber Optik</h5>
+                        <div class="progress">
+                            <div class="progress-bar" data-progress="70"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="skill-item">
+                        <h5>Elektronika</h5>
+                        <div class="progress">
+                            <div class="progress-bar" data-progress="85"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="skill-item">
+                        <h5>Server</h5>
+                        <div class="progress">
+                            <div class="progress-bar" data-progress="75"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kompetensi Section -->
+    <section id="kompetensi" class="kompetensi">
+        <div class="container">
+            <h2 class="section-title">Kompetensi</h2>
+            <div class="tabs">
+                <div class="tab-buttons">
+                    <button class="tab-button active" data-tab="mikrotik">Mikrotik</button>
+                    <button class="tab-button" data-tab="fiber">Fiber Optik</button>
+                    <button class="tab-button" data-tab="elektronika">Elektronika</button>
+                    <button class="tab-button" data-tab="server">Server</button>
+                </div>
+                
+                <!-- Mikrotik Tab -->
+                <div class="tab-content active" id="mikrotik">
+                    <div class="skill-description">
+                        <h3>Konfigurasi Mikrotik</h3>
+                        <p>Pengalaman dalam konfigurasi router Mikrotik, setup hotspot, VLAN, firewall, dan manajemen bandwidth untuk jaringan enterprise.</p>
+                    </div>
+                    <div class="skill-gallery">
+                        <img src="./assets/img/mikrotik1.jpg" alt="Melakukan konfigurasi dasar pada router mikrotik menggunakan software Winbox hingga client mendapat internet" class="gallery-img clickable-image">
+                        <img src="./assets/img/mikrotik2.jpg" alt="Melakukan konfigurasi VLAN pada switch cisco" class="gallery-img clickable-image">
+                    </div>
+                </div>
+
+                <!-- Fiber Optik Tab -->
+                <div class="tab-content" id="fiber">
+                    <div class="skill-description">
+                        <h3>Instalasi Fiber Optik</h3>
+                        <p>Keahlian dalam splicing fiber optik, instalasi kabel FO, pengukuran OTDR, dan troubleshooting jaringan fiber optik.</p>
+                    </div>
+                    <div class="skill-gallery">
+                        <img src="./assets/img/FO1.jpg" alt="Praktek splicing kabel fiber optik menggunakan fusion splicer" class="gallery-img clickable-image">
+                        <img src="./assets/img/FO2.jpg" alt="Praktek pengupasan kabel distribusi 12 core" class="gallery-img clickable-image">
+                        <img src="./assets/img/FO3.jpg" alt="Praktek pengupasan kabel pigtail" class="gallery-img clickable-image">
+                    </div>
+                </div>
+
+                <!-- Elektronika Tab -->
+                <div class="tab-content" id="elektronika">
+                    <div class="skill-description">
+                        <h3>Elektronika & Hardware</h3>
+                        <p>Keahlian dalam pemrograman mikrokontroller dan pengembangan sistem IoT untuk proyek elektronika.</p>
+                    </div>
+                    <div class="skill-gallery">
+                        <img src="./assets/img/elektro5.jpg" alt="Membuat sistem Komunikasi Nirkabel Berbasis NRF24L01 untuk Remote Control Menggunakan ESP32" class="gallery-img clickable-image">
+                        <img src="./assets/img/electro3.jpg" alt="Project drone DIY menggunakan ESP32" class="gallery-img clickable-image">
+                        <img src="./assets/img/electro4.jpg" alt="Membuat alat monitoring penggunaan listrik" class="gallery-img clickable-image">
+                    </div>
+                </div>
+
+                <!-- Server Tab -->
+                <div class="tab-content" id="server">
+                    <div class="skill-description">
+                        <h3>Manajemen Server</h3>
+                        <p>Pengalaman dalam setup dan maintenance server Linux/Windows, virtualisasi, monitoring sistem, dan backup data.</p>
+                    </div>
+                    <div class="skill-gallery">
+                        <img src="./assets/img/server1.jpg" alt="Instalasi dan konfigurasi linux server menggunakan sistem operasi Debian 12" class="gallery-img clickable-image">
+                        <img src="./assets/img/server2.jpg" alt="Pembelajaran konfigurasi Windows Server dalam Persiapan LKS ITNSA" class="gallery-img clickable-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sertifikat Section -->
+    <section id="sertifikat" class="sertifikat">
+        <div class="container">
+            <h2 class="section-title">Sertifikat</h2>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <img src="./assets/setifikat/serti1.jpg" alt="Sertifikat Belajar Jaringan Komputer Dari Dasar" class="cert-img clickable-image">
+                    <h3>Belajar Jaringan Komputer Dari Dasar</h3>
+                    <p class="cert-org">ID-Networkers</p>
+                    <p class="cert-date">2025</p>
+                </div>
+                <div class="certificate-card">
+                    <img src="./assets/setifikat/serti2.jpg" alt="Sertifikat Mikrotik Dasar" class="cert-img clickable-image">
+                    <h3>Mikrotik Dasar</h3>
+                    <p class="cert-org">ID-Networkers</p>
+                    <p class="cert-date">2024</p>
+                </div>
+                <div class="certificate-card">
+                    <img src="./assets/setifikat/serti3.jpg" alt="Sertifikat Internet TCP/IP" class="cert-img clickable-image">
+                    <h3>Internet TCP/IP</h3>
+                    <p class="cert-org">Andi Academy</p>
+                    <p class="cert-date">2024</p>
+                </div>
+                <div class="certificate-card">
+                    <img src="./assets/setifikat/serti4.jpg" alt="Sertifikat Belajar Linux Dari Nol Sampai Bisa Hosting Website " class="cert-img clickable-image">
+                    <h3>Belajar Linux Dari Nol Sampai Bisa Hosting Website</h3>
+                    <p class="cert-org">ID-Networkers</p>
+                    <p class="cert-date">2025</p>
+                </div>
+                <div class="certificate-card">
+                    <img src="./assets/setifikat/Serti5.jpg" alt="Sertifikat Peserta Olimpiade Jaringan Mikrotik Tingkat Nasional" class="cert-img clickable-image">
+                    <h3>Sertifikat Peserta Olimpiade Jaringan Mikrotik Tingkat Nasional</h3>
+                    <p class="cert-org">Citraweb</p>
+                    <p class="cert-date">2025</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Muhammad Bintang Izzra Wahyudi. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/bintangizzr" target="https://github.com/bintangizzr"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/bintangizzr/" target="https://www.instagram.com/bintangizzr/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" id="closeModal">&times;</span>
+            <img id="modalImage" src="" alt="">
+            <div class="modal-caption" id="modalCaption"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+</body>
+</html>
